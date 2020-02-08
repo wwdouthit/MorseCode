@@ -1,5 +1,5 @@
 # MorseCode
-Translates typed English into Morse code on the screen or with a blinking LED on a Raspberry Pi.
+Translates typed English into Morse code on the screen and/or with a blinking LED on a Raspberry Pi.
 
 This is a simple Python script which will take text at the command prompt and translate it into
 Morse Code.  The Morse Code is printed to the screen and then sent electronically to a LED connected
