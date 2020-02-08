@@ -8,7 +8,8 @@ to a Raspberry Pi GPIO bus.
 In order to use with the LED on the Raspberry Pi, the setup and explanation at this website is helpful:
 https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins
 
-The code is set up to interact with the LED on GPIO 
+The code is set up to interact with the LED on GPIO 18.  Another pin can be used but be sure to update
+the code in the transmit() funtion.
 
 The Morse Code is stored in MorseCode.json and can be edited there if changes should need to be made.
 
