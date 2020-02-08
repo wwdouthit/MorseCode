@@ -108,8 +108,6 @@ if textToTranslate == '911' or textToTranslate.upper() == 'SOS':
     while True:
         print(messageToTransmit)
         transmit(messageToTransmit)
-            #TODO:  Figure out how to drop out of this loop with some kind
-            #of input
 else:
     #print the morse code
     print(messageToTransmit)
