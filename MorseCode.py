@@ -112,8 +112,4 @@ else:
     #print the morse code
     print(messageToTransmit)
     transmit(messageToTransmit)
-
-#TODO:  OUTPUT HERE IS ONLY FOR TESTING, REMOVE WHEN DONE TESTING
-#################################################################
-
-#################################################################
+    
