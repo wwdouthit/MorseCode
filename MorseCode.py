@@ -27,7 +27,7 @@ dictionary = {}
 with open(MorseJsonFilename, 'r') as file:
     dictionary = json.load(file)
 
-#Converstion Function
+#Conversion Function
 def convert_word(word):
     """Converts a word into Morse Code and appends a space at the end of the 
     word."""
@@ -61,10 +61,9 @@ def build_message(messageString):
                 outputString += letterGap
         if wordIndex != len(mcWords) -1:
             outputString +=wordGap
-   # outputString += f'{wordGap + dictionary[endOfMessage]}'
     return outputString
 
-#function to transmit the message
+#function to transmit the message on a Raspberry Pi (See Readme)
 def transmit (message):
     #Setup the GPIO
     GPIO.setwarnings(False)
